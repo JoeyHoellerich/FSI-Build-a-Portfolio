@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>My Portfolio</title>
-</head>
+    <link href = "./style.css" rel = "stylesheet">
+    <title>Joey's Portfolio</title>
+  </head>
+  <body>
+      <article> 
+        <section id = "heading" class = "heading">
+        <!-- Main Banner (name + navbar)-->
+          <div class = "name"> 
+            <h1> Joey Hoellerich </h1>
+            <h3> Software Developer </h2>
+            <p> <i>"My name is Joey, and I like to party"</i> </p>
+          </div>
+        <!-- Links to ElseWhere in the page-->
+          <div class="links">
+            <ul>
+              <li> <a href = "#projects"> My Projects</a> </li>
+              <li> <a href = "#about"> About Me</a> </li>
+              <li> <a href = "#contact"> Contact </a> </li>
+            </ul>
+          </div>
+        </section>
 
-<body>
-    <H1>
-        My Portfolio
-    </H1>
+          <hr>
+        <!-- My Info-->
+        <section id = "projects" class = "projects">
+          <h3> My Projects </h3>
+          <p> Coming Soon </p>
+        </section>
+
+        <section id = "about" class = "about">
+          <h3> About Me </h3>
+          <div id="facepic">
+            <img id = "thumbs" alt = "thumbs up man" src = "./images/man.jpg">
+          </div>
+          <div id="aboutText">
+            <p> 
+              I'm baby cornhole church-key lomo copper mug shoreditch, af blue bottle hot chicken hell of tote bag craft beer hammock ennui shaman. Lo-fi adaptogen cliche locavore. Hashtag umami small batch quinoa copper mug. Direct trade kitsch venmo iPhone. Typewriter street art authentic, truffaut selvage tattooed microdosing vice shaman organic lumbersexual raclette. Normcore taxidermy kombucha kitsch kickstarter. Pork belly af cred, brunch seitan la croix echo park mumblecore williamsburg twee shoreditch sartorial austin copper mug woke.
+            </p>  
+  
+            <p>
+              Occupy listicle selfies XOXO, brunch +1 pitchfork actually prism. Gluten-free jianbing small batch sustainable venmo keytar cloud bread YOLO meditation green juice. Literally synth next level iceland seitan, keytar snackwave cred mustache direct trade occupy fam raclette. Four loko bicycle rights tofu portland, normcore pour-over dreamcatcher activated charcoal salvia kitsch wolf. Chillwave pop-up man braid tousled everyday carry marfa.
+            </p>
+            
+            <p>
+              Enamel pin poutine freegan craft beer trust fund, selvage chia shoreditch. Next level enamel pin pop-up pitchfork, godard umami street art. Mixtape kinfolk street art biodiesel meditation hella chicharrones artisan squid yuccie. Hell of retro coloring book pug, lomo cray iPhone yr chia succulents meggings enamel pin. Craft beer tote bag pinterest, hot chicken roof party 8-bit biodiesel tattooed pour-over locavore fanny pack flexitarian viral gochujang chillwave.
+            </p>
+          </div>
+        </section>
+          
+        <section id = "contact" class = "contact">
+          <h3> Contact Me </h3>
+          <ul>
+              <li> (###) 555 - 5555 </li>
+              <li> <a> name@email.com </a> </li>
+          </ul>
+        </section>
+        
+      </article>
     <!-- 
       Directions:
-        1. Create a DIV element to contain the page content
-        2. Inside your DIV, create an H1 tag that contains your name as the text
-        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
-        4. Below your H2 tag, create an HR tag which will make a horizontal line
-        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
-        6. Make the word "favorite" italicized
-        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
-        8. Create an H3 tag that says "About Me"
-        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
-        10. Create an H3 tag that says "My Projects"
-        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
-        12. Add another H3 that contains "Contact Me" as text
-        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
-        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+        1. Create a DIV element to contain the page content.
+        2. Inside your DIV, create an H1 tag that contains your name as the text.
+        3. Below your H1 tag, create an H2 tag that contains the content text, "Software Developer."
+        4. Below your H2 tag, create an HR tag, which will make a horizontal line.
+        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______.")
+        6. Create an H3 tag that says "My Projects."
+        7. Create a paragraph tag that says "Coming Soon."
+        8. Create an H3 tag that says "About Me."
+        9. Create a paragraph tag that contains the "lorem ipsum" text. HINT: You will need to do a search for this text...it is long! Alternatively, grab a sample from this site: https://generator.lorem-ipsum.info/
 
-        BONUS: Try one of the following ideas if you finish early
-          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
-          - In your contact me section, make the text "Phone:" and "Email:" bolded
+        BONUS: Try one of the following ideas if you finish early.
+          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/).
+          - Add another H3 that contains "Contact Me," a paragraph tag containing your email, and a paragraph tag containing your phone number (these can be fake!).
      -->
-</body>
-
+  </body>
 </html>

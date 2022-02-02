@@ -1,0 +1,106 @@
+/* General/Global */
+/* ----------------------- */
+body {
+  margin: 0;
+}
+
+section {
+  padding: 0px 20px;
+}
+
+hr {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Main Banner */
+/* ----------------------- */
+.heading {
+  display: flex;
+  background-color: lightsalmon;
+  text-align: center;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.name {
+  width: 50%;
+}
+
+.name h3 {
+  margin-top: 5px;
+}
+
+.links ul {
+  position: relative;
+  top: 30%;
+  padding: 0;
+  min-width: 350px;
+  margin: 5px;
+}
+
+.links li {
+  display: inline-grid;
+  background-color: rgb(10, 218, 148);
+  list-style-type: none;
+  width: 90px;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+/* My Projects */
+/* ---------------------------- */
+.projects {
+  background-color: lightblue;
+}
+
+.projects p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* About Me */
+/* ---------------------------- */
+.about {
+  background-color: lightpink;
+}
+
+#thumbs {
+  width: 300px;
+  border: 3px solid black;
+  float: left;
+  margin: 5px 20px 5px 0px;
+}
+
+.about p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* Contact */
+/* ---------------------------- */
+.contact {
+  background-color: darkslategray;
+  text-align: center;
+  color: white;
+  border-bottom: 5px solid black;
+}
+
+.contact li {
+  list-style-type: none;
+}
+
+.contact ul {
+  padding: 0;
+}
